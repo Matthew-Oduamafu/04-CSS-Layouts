@@ -323,6 +323,29 @@ footer {
   margin-top: 5px;
 }
 
+.row {
+  display: flex;
+  align-items: flex-start;
+  gap: 75px;
+  margin-bottom: 60px;
+}
+aside {
+  /* 
+        DEFAULT
+        flex-grow: 0;
+        flex-shrink: 1;
+        flex-basis: auto; */
+  flex: 0 0 300px;
+}
+article {
+  /* 
+        DEFAULT
+        flex-grow: 0;
+        flex-shrink: 1;
+        flex-basis: auto; */
+  flex: 1;
+  margin-bottom: 0;
+}
 /* Resolving conflicts */
 /* #copyright {
   color: red;
