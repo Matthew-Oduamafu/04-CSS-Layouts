@@ -36,10 +36,19 @@
         /* STARTER */
         font-family: sans-serif;
         background-color: #ddd;
-        font-size: 40px;
+        font-size: 30px;
         margin: 40px;
 
         /* CSS GRID */
+        display: grid;
+        /* grid-template-columns: 2fr 1fr 1fr 1fr; */
+        /* grid-template-rows: 300px 200px; */
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 1fr auto;
+        height: 500px;
+        /* gap: 30px; */
+        column-gap: 10px;
+        row-gap: 40px;
       }
 
       .container--2 {
@@ -53,6 +62,7 @@
         height: 600px;
 
         /* CSS GRID */
+        display: none;
       }
     </style>
   </head>
